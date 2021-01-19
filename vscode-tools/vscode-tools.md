@@ -47,4 +47,19 @@ SSH into a filesystem and edit live - edit files using all your vscode extension
 ### Remote - WSL
 Seamlessly use VSCode features in a Linux environment, on Windows!
 
+## CPPLint
+A linter is a staic code checker that creates a report on the style and quality of your code. CPPLint is a linter for C and C++
 
+To install:
+Install python-pip
+`sudo apt install python-pip`
+Install cpplint
+`sudo pip install cpplint`
+Now, you can run it on any C file to get style suggestions
+'cpplint main.c'
+
+But, we want to take it a step further
+
+Get the extension "cpplint" after following these installation instructions - now you'll get all cpplint suggestions inline while writing your code
+
+- NOTE: cpplint will often conflict with the formatting by Prettier. Consider disabling Prettier if your project requires strict compliance with cpplint standards
