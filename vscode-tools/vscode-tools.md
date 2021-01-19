@@ -52,11 +52,16 @@ A linter is a staic code checker that creates a report on the style and quality 
 
 To install:
 Install python-pip
+
 `sudo apt install python-pip`
+
 Install cpplint
+
 `sudo pip install cpplint`
+
 Now, you can run it on any C file to get style suggestions
-'cpplint main.c'
+
+`cpplint main.c`
 
 But, we want to take it a step further
 
